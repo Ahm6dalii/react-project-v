@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btnMain{
+    @apply bg-[#967dff] text-white hover:border hover:bg-[#d9d2f8] hover:text-[#7c5cff] hover:border-[#967dff]
+}
+.btnSecondary{
+    @apply py-3 px-7 text-base font-medium text-indigo-100 focus:outline-none bg-[#202142] rounded-lg border border-indigo-200 hover:bg-indigo-900 focus:z-10 focus:ring-4 focus:ring-indigo-200 
+}
+.modal-box{
+    --tw-scale-x:.9 !important;
+}
+/* .mx-bg{
+    mix-blend-mode: multiply;
+} */
